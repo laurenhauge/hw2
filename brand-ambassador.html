@@ -13,6 +13,32 @@
     <a class="font-semibold text-center text-gray-50 bg-blue-800 border-2 border-blue-800 rounded p-1" href="about-us.html">About Us</a>
     <a class="font-semibold text-center text-gray-50 bg-blue-800 border-2 border-blue-800 rounded p-1" href="flavors.html">Flavors</a>
     <h1 class="font-bold text-blue-800 text-3xl p-2">Want to be a Scoops Ahoy Brand Ambassador?</h1>
+    <form>
+        <label class="block mt-4 font-bold text-blue-800" for="name">What's your name?</label>
+    <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+    focus:border-purple-500" type="text" id="name" name="name">
+    
+      <label class="block mt-4 font-bold text-blue-800" for="email">What's your Instagram handle?</label>
+      <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+      focus:border-purple-500" type="text" id="email" name="email">
+      <div>
+        <label class="block mt-4 font-bold text-blue-800" for="email">Where are you located?</label> 
+        <input type="radio" id="contactChoice1"
+         name="contact" value="email">
+        <label for="contactChoice1">Hawkins, Indiana</label>
+    
+        <input type="radio" id="contactChoice2"
+         name="contact" value="phone">
+        <label for="contactChoice2">America</label>
+    
+        <input type="radio" id="contactChoice3"
+         name="contact" value="mail">
+        <label for="contactChoice3">Not America</label>
+      </div>
+        <div>
+          <button class="font-semibold text-center text-gray-50 bg-blue-800 border-2 border-blue-800 rounded p-1" type="submit">Submit</button>
+        </div>
+      </form>
 </div>
 </body>
 </html>
